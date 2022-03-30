@@ -1,16 +1,28 @@
-### Hi there 👋
+# php-getting-started
 
-<!--
-**Shivamkr22/shivamkr22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
 
-Here are some ideas to get you started:
+This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Deploying
+
+Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+
+```sh
+$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
+$ cd php-getting-started
+$ heroku create
+$ git push heroku main
+$ heroku open
+```
+
+or
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+## Documentation
+
+For more information about using PHP on Heroku, see these Dev Center articles:
+
+- [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php)
+- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
